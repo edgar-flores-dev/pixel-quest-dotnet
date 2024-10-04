@@ -1,0 +1,12 @@
+@pixel_quest_backend_service_HostAddress = http://localhost:5124
+
+GET {{pixel_quest_backend_service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+GET {{pixel_quest_backend_service_HostAddress}}/gethello/
+Accept: application/json
+
+###
